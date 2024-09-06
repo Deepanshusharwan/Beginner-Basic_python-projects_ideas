@@ -1,3 +1,4 @@
+#code by Deepanshu Sharwan
 message = input('Write your message here-> ') #put the text to be processed here
 def emoji_converter(message):
     words = message.split(' ')
@@ -7,7 +8,7 @@ def emoji_converter(message):
         ':o': '😮',
         '=_=': '😑',
         ':thumbs_up': '👍',
-        ':okay': '👌',
+        ':okay': '👌',#you can add more emojis as per your wishes to this dictionary
         ':sad': '☹',
         ':smiling': '️😁',
         ':annoyed': '😑',
